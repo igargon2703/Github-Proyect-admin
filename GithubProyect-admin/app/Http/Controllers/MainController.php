@@ -4,20 +4,20 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class MainController extends Controller
+class MainController
 {
     public function index()
     {
-        return view('index'); 
+        return view('index');
     }
 
     public function about()
     {
-        return view('about'); 
+        return view('about');
     }
 
     public function portfolio()
     {
-        return view('portfolio'); 
+        return view('portfolio');
     }
 }
